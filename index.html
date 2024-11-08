@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Age Calculator</h1>
+  <p>Hei, dette er en enkelt webside for å regne ut hvor gammel du er 😊.</p>
+  <p>Vennligst skriv inn fødselsdato og trykk på knappen nede.</p>
+
+  <div class="date-inputs">
+    <div class="input-field">
+      <label>Dag</label>
+      <input type="text" id="day" maxlength="2" placeholder="f.eks 15">
+    </div>
+    <div class="input-field">
+      <label>Måned</label>
+      <input type="text" id="month" maxlength="2" placeholder="f.eks 08">
+    </div>
+    <div class="input-field">
+      <label>År</label>
+      <input type="text" id="year" maxlength="4" placeholder="f.eks 2006">
+    </div>
+  </div>
+
+  <button onclick="calculateAge()">Regn ut min alder</button>
+
+  <p id="result">din alder er:</p>
+
+  <div class="resources">
+    <p>Ressurser</p>
+    <ul>
+      <li><a href="https://github.com/kiing400/abdirzk-image-gallery">Rotating Image Gallary prosjektet</a></li>
+    </ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
